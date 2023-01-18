@@ -34,3 +34,30 @@ wifi:
     password: "V8iURHhgDln4"
 
 captive_portal:
+
+
+sensor:
+  - platform: xiaomi_hhccjcy01
+    mac_address: '5C:85:7E:B0:09:31'
+    temperature:
+      name: "MiFlora Temperature"
+    moisture:
+      name: "MiFlora Moisture"
+    illuminance:
+      name: "MiFlora Illuminance"
+    conductivity:
+      name: "MiFlora Soil Conductivity"
+    battery_level:
+      name: "MiFlora Battery Level"
+  - platform: xiaomi_hhccjcy01
+    mac_address: '5C:85:7E:B0:07:35'
+    temperature:
+      name: "MiFlora Temperature 2"
+    moisture:
+      name: "MiFlora Moisture 2"
+    illuminance:
+      name: "MiFlora Illuminance 2"
+    conductivity:
+      name: "MiFlora Soil Conductivity 2"
+    battery_level:
+      name: "MiFlora Battery Level 2"
